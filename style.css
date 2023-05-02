@@ -1,0 +1,45 @@
+.input {
+    grid-area: input;
+    padding: 30px;
+    background-color: rgb(215, 210, 210);
+}
+
+h1 {
+    color: bl;
+    text-align: center;
+}
+
+.main {
+    width: 20%;
+    margin: auto;
+    box-shadow: 2px 2px 20px rgb(118, 117, 117);
+    /* border: 5px solid black; */
+    border-radius: 10px;
+
+}
+.button-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    padding: 10px;
+    gap: 10px;
+    
+    
+}
+.button-container button{
+    box-shadow: 1px 1px 6px rgb(176, 175, 175);
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+.button-container button:hover{
+    background-color: gray;
+}
+.keyOperator{
+    background-color: black;
+    color: white;
+}
+#keyClear{
+    background-color: red;
+    color: white;
+}
