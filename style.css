@@ -1,9 +1,13 @@
-.input {
+#input-div {
     grid-area: input;
     padding: 30px;
     background-color: rgb(215, 210, 210);
+height: 20px;
 }
+#text{
+    float: right;
 
+}
 h1 {
     color: bl;
     text-align: center;
@@ -21,8 +25,9 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 2px;
-    padding: 10px;
-    gap: 10px;
+    padding: 0px 0px 10px 0px;
+    gap: 20px;
+    width: 100%;
     
     
 }
@@ -35,7 +40,7 @@ h1 {
 .button-container button:hover{
     background-color: gray;
 }
-.keyOperator{
+.keyOperator, #keyEqual{
     background-color: black;
     color: white;
 }
